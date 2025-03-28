@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 $primaryFont: "Inter";
-
+$h-font-size-phone: "32px";
 @media only screen and (max-width: 428px) {
   .wrapper {
     display: none;
@@ -9,13 +9,62 @@ $primaryFont: "Inter";
     font-family: $primaryFont, sans-serif;
     .page-main {
       display: flex;
+      margin-top: 50px;
       flex-direction: column;
+      justify-content: center;
+      background: gray;
       width: 100%;
       .intro {
         display: flex;
+        justify-content: center;
         width: 100%;
+        background: yellowgreen;
+        height: 516px;
         &__image {
           display: none;
+        }
+        &__header {
+          background: yellow;
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+          width: 80%;
+          &__greetings {
+            font-size: 20px;
+            margin-top: 0;
+            display: flex;
+          }
+          &__message {
+            font-size: 64px;
+            display: flex;
+          }
+        }
+      }
+      .about {
+        background: khaki;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        &__title {
+          background: tomato;
+          order: 1;
+          font-size: 32px;
+        }
+        &__photo {
+          order: 2;
+          display: block;
+          width: 300px;
+          margin-bottom: 25px;
+        }
+        &__text {
+          order: 3;
+          font-size: 18px;
+          font-weight: 200;
+          line-height: 180%;
+          width: 368px;
+          background: yellow;
         }
       }
     }

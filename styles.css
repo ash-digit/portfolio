@@ -8,15 +8,64 @@
   }
   body .page-main {
     display: flex;
+    margin-top: 50px;
     flex-direction: column;
+    justify-content: center;
+    background: gray;
     width: 100%;
   }
   body .page-main .intro {
     display: flex;
+    justify-content: center;
     width: 100%;
+    background: yellowgreen;
+    height: 516px;
   }
   body .page-main .intro__image {
     display: none;
+  }
+  body .page-main .intro__header {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 80%;
+  }
+  body .page-main .intro__header__greetings {
+    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+  }
+  body .page-main .intro__header__message {
+    font-size: 64px;
+    display: flex;
+  }
+  body .page-main .about {
+    background: khaki;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  body .page-main .about__title {
+    background: tomato;
+    order: 1;
+    font-size: 32px;
+  }
+  body .page-main .about__photo {
+    order: 2;
+    display: block;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+  body .page-main .about__text {
+    order: 3;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 180%;
+    width: 368px;
+    background: yellow;
   }
 }
 
