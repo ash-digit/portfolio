@@ -12,19 +12,16 @@ $h-font-size-phone: "32px";
       margin-top: 50px;
       flex-direction: column;
       justify-content: center;
-      background: gray;
       width: 100%;
       .intro {
         display: flex;
         justify-content: center;
         width: 100%;
-        background: yellowgreen;
         height: 516px;
         &__image {
           display: none;
         }
         &__header {
-          background: yellow;
           display: flex;
           flex-direction: column;
           margin: 10px;
@@ -41,14 +38,12 @@ $h-font-size-phone: "32px";
         }
       }
       .about {
-        background: khaki;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
         &__title {
-          background: tomato;
           order: 1;
           font-size: 32px;
         }
@@ -64,11 +59,9 @@ $h-font-size-phone: "32px";
           font-weight: 200;
           line-height: 180%;
           width: 368px;
-          background: yellow;
         }
       }
       .skills {
-        background: rgb(225, 158, 158);
         margin-top: 100px;
         display: flex;
         flex-direction: column;
@@ -76,11 +69,9 @@ $h-font-size-phone: "32px";
         &__banner {
           display: flex;
           flex-direction: column;
-          background: salmon;
           align-items: center;
           width: 332px;
           &__title {
-            background-color: greenyellow;
             font-size: 32px;
           }
           &__text {
@@ -90,7 +81,6 @@ $h-font-size-phone: "32px";
           }
         }
         &__stage {
-          background-color: wheat;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           column-gap: 0px;
@@ -99,7 +89,6 @@ $h-font-size-phone: "32px";
           margin-top: 25px;
           &__item {
             font-size: 16px;
-            background: mediumspringgreen;
             display: flex;
             width: 112px;
             height: 140px;
@@ -110,43 +99,41 @@ $h-font-size-phone: "32px";
         }
       }
       .projects {
-        background: saddlebrown;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         &__title {
           font-size: 32px;
-          background-color: gray;
         }
         &__cards {
-          background-color: rgb(43, 68, 40);
           display: flex;
           flex-direction: column;
           align-items: center;
           &__card {
-            background: rgb(143, 250, 158);
             display: flex;
             flex-direction: column;
             align-items: center;
+
             margin-bottom: 64px;
             &__frame {
-              background: yellowgreen;
+              border-radius: 5px 5px 5px 5px;
+              background: #bcd4e6;
               width: 373px;
               display: flex;
               flex-direction: column;
               justify-content: end;
               align-items: center;
               &__photo {
-                border: 1px solid red;
                 width: 90%;
                 display: block;
+                border-radius: 5px 5px 5px 5px;
+
                 margin-top: 80px;
               }
             }
             &__tech {
               margin-top: 40px;
-              background: pink;
               align-self: start;
               margin-left: 20px;
               font-size: 16px;
@@ -157,11 +144,9 @@ $h-font-size-phone: "32px";
               align-self: start;
               margin-left: 20px;
               margin-top: 0px;
-              background: lightsalmon;
             }
             &__description {
               align-self: start;
-              background-color: darkorange;
               width: 90%;
               margin-left: 20px;
               margin-top: -5px;
@@ -172,7 +157,6 @@ $h-font-size-phone: "32px";
             &__links {
               width: 275px;
               display: flex;
-              background-color: yellow;
               align-self: start;
               margin-left: 20px;
               &__btn {
@@ -180,7 +164,6 @@ $h-font-size-phone: "32px";
                 font-weight: 600;
                 border: 1px solid black;
                 background: #ffffff;
-
                 height: 42px;
                 border-radius: 8px;
                 margin-right: 20px;
@@ -197,24 +180,28 @@ $h-font-size-phone: "32px";
     footer {
       display: flex;
       flex-direction: column;
-      background: violet;
+      background: black;
       height: 216px;
       justify-content: space-evenly;
       align-items: center;
       .socials-links {
-        background-color: aqua;
         width: 157px;
         display: flex;
         align-self: center;
         justify-content: space-between;
-        img {
+        &__icon {
           border-radius: 50%;
+          width: 45px;
+          height: 45px;
+          background: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
       a:link {
         text-decoration: none;
         color: white;
-        background-color: beige;
         font-size: 18px;
       }
       a:visited {
