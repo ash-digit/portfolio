@@ -67,6 +67,158 @@
     width: 368px;
     background: yellow;
   }
+  body .page-main .skills {
+    background: rgb(225, 158, 158);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .page-main .skills__banner {
+    display: flex;
+    flex-direction: column;
+    background: salmon;
+    align-items: center;
+    width: 332px;
+  }
+  body .page-main .skills__banner__title {
+    background-color: greenyellow;
+    font-size: 32px;
+  }
+  body .page-main .skills__banner__text {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body .page-main .skills__stage {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    width: 336px;
+    height: 420px;
+    margin-top: 25px;
+  }
+  body .page-main .skills__stage__item {
+    font-size: 16px;
+    background: mediumspringgreen;
+    display: flex;
+    width: 112px;
+    height: 140px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  body .page-main .projects {
+    background: saddlebrown;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .page-main .projects__title {
+    font-size: 32px;
+    background-color: gray;
+  }
+  body .page-main .projects__cards {
+    background-color: rgb(43, 68, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .page-main .projects__cards__card {
+    background: rgb(143, 250, 158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  body .page-main .projects__cards__card__frame {
+    background: yellowgreen;
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  body .page-main .projects__cards__card__frame__photo {
+    border: 1px solid red;
+    width: 90%;
+    display: block;
+    margin-top: 80px;
+  }
+  body .page-main .projects__cards__card__tech {
+    margin-top: 40px;
+    background: pink;
+    align-self: start;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  body .page-main .projects__cards__card__title {
+    font-size: 38px;
+    font-weight: 600;
+    align-self: start;
+    margin-left: 20px;
+    margin-top: 0px;
+    background: lightsalmon;
+  }
+  body .page-main .projects__cards__card__description {
+    align-self: start;
+    background-color: darkorange;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: -5px;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 160%;
+  }
+  body .page-main .projects__cards__card__links {
+    width: 275px;
+    display: flex;
+    background-color: yellow;
+    align-self: start;
+    margin-left: 20px;
+  }
+  body .page-main .projects__cards__card__links__btn {
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid black;
+    background: #ffffff;
+    height: 42px;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  body .page-main .projects__cards__card__links__btn span {
+    font-weight: 200;
+  }
+  body footer {
+    display: flex;
+    flex-direction: column;
+    background: violet;
+    height: 216px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  body footer .socials-links {
+    background-color: aqua;
+    width: 157px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+  body footer .socials-links img {
+    border-radius: 50%;
+  }
+  body footer a:link {
+    text-decoration: none;
+    color: white;
+    background-color: beige;
+    font-size: 18px;
+  }
+  body footer a:visited {
+    text-decoration: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

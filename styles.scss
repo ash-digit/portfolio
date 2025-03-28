@@ -67,6 +67,159 @@ $h-font-size-phone: "32px";
           background: yellow;
         }
       }
+      .skills {
+        background: rgb(225, 158, 158);
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__banner {
+          display: flex;
+          flex-direction: column;
+          background: salmon;
+          align-items: center;
+          width: 332px;
+          &__title {
+            background-color: greenyellow;
+            font-size: 32px;
+          }
+          &__text {
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+          }
+        }
+        &__stage {
+          background-color: wheat;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 0px;
+          width: 336px;
+          height: 420px;
+          margin-top: 25px;
+          &__item {
+            font-size: 16px;
+            background: mediumspringgreen;
+            display: flex;
+            width: 112px;
+            height: 140px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+          }
+        }
+      }
+      .projects {
+        background: saddlebrown;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+          font-size: 32px;
+          background-color: gray;
+        }
+        &__cards {
+          background-color: rgb(43, 68, 40);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          &__card {
+            background: rgb(143, 250, 158);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 64px;
+            &__frame {
+              background: yellowgreen;
+              width: 373px;
+              display: flex;
+              flex-direction: column;
+              justify-content: end;
+              align-items: center;
+              &__photo {
+                border: 1px solid red;
+                width: 90%;
+                display: block;
+                margin-top: 80px;
+              }
+            }
+            &__tech {
+              margin-top: 40px;
+              background: pink;
+              align-self: start;
+              margin-left: 20px;
+              font-size: 16px;
+            }
+            &__title {
+              font-size: 38px;
+              font-weight: 600;
+              align-self: start;
+              margin-left: 20px;
+              margin-top: 0px;
+              background: lightsalmon;
+            }
+            &__description {
+              align-self: start;
+              background-color: darkorange;
+              width: 90%;
+              margin-left: 20px;
+              margin-top: -5px;
+              padding-right: 10px;
+              font-size: 18px;
+              line-height: 160%;
+            }
+            &__links {
+              width: 275px;
+              display: flex;
+              background-color: yellow;
+              align-self: start;
+              margin-left: 20px;
+              &__btn {
+                font-size: 16px;
+                font-weight: 600;
+                border: 1px solid black;
+                background: #ffffff;
+
+                height: 42px;
+                border-radius: 8px;
+                margin-right: 20px;
+                padding: 10px;
+                span {
+                  font-weight: 200;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      background: violet;
+      height: 216px;
+      justify-content: space-evenly;
+      align-items: center;
+      .socials-links {
+        background-color: aqua;
+        width: 157px;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        img {
+          border-radius: 50%;
+        }
+      }
+      a:link {
+        text-decoration: none;
+        color: white;
+        background-color: beige;
+        font-size: 18px;
+      }
+      a:visited {
+        text-decoration: none;
+      }
     }
   }
 }
